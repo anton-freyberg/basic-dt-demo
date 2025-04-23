@@ -11,4 +11,7 @@
     name: app-easytrade
 
 - include_role:
+    name: app-unguard
+
+- include_role:
     name: dashboard
