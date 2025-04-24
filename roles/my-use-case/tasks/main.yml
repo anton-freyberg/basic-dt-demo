@@ -4,9 +4,6 @@
 
 - include_role:
     name: dt-operator
-  vars:
-    operator_mode: "classicFullStack"
-    dt_operator_release: "1.4.1"
 
 - include_role:
     name: app-unguard
