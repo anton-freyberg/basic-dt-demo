@@ -5,13 +5,13 @@
 - include_role:
     name: dt-operator
   vars:
-    log_monitoring: "fluentbit"
-
-- include_role:
-    name: app-easytrade
+    operator_mode: "classicFullStack"
 
 - include_role:
     name: app-unguard
+
+- include_role:
+    name: app-easytrade
 
 - include_role:
     name: dashboard
