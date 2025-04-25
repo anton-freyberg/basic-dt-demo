@@ -57,6 +57,9 @@
         enabled: true 
         deployment:
           container:
+            env:
+              USERS: 5
+              WAIT_TIME: 200
             image:
               tag: "{{ unguard_image_tag }}"
       adService:
